@@ -12,10 +12,11 @@ module.exports = {
       network_id: "*"       // Any network (default: none)
     },
     ropsten: {
+      // Define the provider for Ropsten network with HDWalletProvider
       provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/${infuraKey}`),
-      network_id: 3,       // Ropsten id
+      network_id: 3,       // Ropsten network ID
       gas: 5500000,        // Ropsten has a lower block limit than mainnet
-      confirmations: 2,    // # of confirmations to wait between deployments. (default: 0)
+      confirmations: 2,    // Number of confirmations to wait between deployments. (default: 0)
     }
   },
   compilers: {
