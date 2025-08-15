@@ -1,7 +1,7 @@
 const path = require('path');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const infuraKey = "YOUR_INFURA_KEY";
-const mnemonic = "YOUR_MNEMONIC";
+const infuraKey = "YOUR_INFURA_KEY"; // Replace with your Infura project key
+const mnemonic = "YOUR_MNEMONIC"; // Replace with your wallet mnemonic
 
 module.exports = {
   // Directory to store compiled contracts
