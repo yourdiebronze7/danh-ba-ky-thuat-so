@@ -4,6 +4,7 @@ const infuraKey = "YOUR_INFURA_KEY";
 const mnemonic = "YOUR_MNEMONIC";
 
 module.exports = {
+  // Directory to store compiled contracts
   contracts_build_directory: path.join(__dirname, "client/src/contracts"),
   networks: {
     development: {
